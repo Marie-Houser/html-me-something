@@ -1,0 +1,116 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+	font-family: "Zeyada", Georgia, sans-serif;
+	background-color: #581845;
+	color: #999999;
+	margin: 20px;
+	padding: 20px;
+	border-style: dotted;
+	border-color:#999999;
+	border-width: 5px;
+}
+
+header {
+	margin: 1cm;
+	padding: 2cm;
+	border-style: solid;
+	border-color: #FF5753;
+	border-width: 20px;
+	font-family: "Miss Saint Delafield", Georgia, sans-serif;
+	text-align: center;
+	font-size: 30px;
+}
+
+article{
+	font-style: italic;
+	font-size: 20px;
+	padding-top: 50px;
+	}
+
+#snarky_intro {
+	text-align: center;
+	font-style: italic;
+}
+
+main {
+	margin-bottom: 20px;
+}
+
+li {
+	font-weight: bold;
+	font-size: 30px;
+	padding:15px;
+	margin-left: 40px;
+	list-style: upper-roman;
+}
+
+img, iframe {
+    display: block;
+    margin: auto;
+	width: 40%;
+	padding: 25px;
+	}
+
+.biography {
+	color:#ff5753;
+	margin-top: 10px;
+}
+
+footer{
+	font-size: 15px;
+	font-style: italic;
+}
+
+#byline {
+	font-style: italic;
+	font-size: 15px;
+	margin-top: 10px;
+}
